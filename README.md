@@ -7,6 +7,8 @@ This webpage serves as a template for "The Little Taco Shop". It includes sectio
 
     About Us
     Our Menu
+    Store Hours
+    Contact Us
 
 Features
 
