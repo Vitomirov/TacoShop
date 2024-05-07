@@ -1,0 +1,50 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 1rem;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333; 
+    background-color: rgb(178, 180, 52);
+} 
+
+th, td, caption, table {
+    border: 1px solid #030303f1;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
+
+.rotate-image{
+    animation: rotate 10s linear infinite;
+    position: fixed;
+    top: 12%;
+    right: 29%;
+    transform: translate(-50%, -50%);
+    
+}
+
+@keyframes rotate{
+    from{
+    transform: rotate(0deg);
+}
+    to {
+    transform: rotate(360deg);
+}
+}
+
+legend{
+    block-size: 1cm;
+    color: rgb(0, 0, 0);
+    background-color: azure;
+    font-family: 'Times New Roman', serif;
+}
+
+a{
+    color: #000;
+    font-style: italic;
+}
